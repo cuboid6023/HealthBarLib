@@ -1,0 +1,711 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:0.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:1.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:2.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:3.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:4.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:5.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:6.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:7.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:8.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:9.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:10.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:11.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:12.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:13.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:14.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:15.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:16.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:17.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:18.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:19.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:20.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:21.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:22.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:23.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:24.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:25.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:26.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:27.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:28.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:29.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:30.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:31.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:32.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:33.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:34.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:35.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:36.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:37.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:38.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:39.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:40.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:41.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:42.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:43.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:44.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:45.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:46.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:47.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:48.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:49.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:50.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:51.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:52.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:53.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue053"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:54.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:55.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue055"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:56.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue056"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:57.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue057"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:58.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue058"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:59.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue059"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:60.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue060"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:61.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue061"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:62.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue062"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:63.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue063"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:64.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue064"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:65.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue065"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:66.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue066"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:67.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue067"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:68.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue068"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:69.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue069"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:70.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue070"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:71.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue071"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:72.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue072"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:73.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue073"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:74.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue074"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:75.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue075"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:76.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue076"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:77.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue077"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:78.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:79.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue079"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:80.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue080"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:81.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue081"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:82.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue082"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:83.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue083"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:84.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue084"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:85.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue085"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:86.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue086"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:87.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue087"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:88.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue088"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:89.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue089"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:90.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue090"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:91.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue091"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:92.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue092"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:93.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue093"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:94.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue094"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:95.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue095"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:96.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue096"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:97.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue097"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:98.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue098"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:99.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue099"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:100.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue100"]
+        }
+    ]
+}
