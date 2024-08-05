@@ -1,5 +1,5 @@
 # calculates the % of health the mob has left
-function bar_lib:calculate_pct
+function bar_lib:calculation/calculate_pct
 
 # updates text
 execute if score $num_display_mode bar.config matches 1 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_temp"},"italic":false}'
