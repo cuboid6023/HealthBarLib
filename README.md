@@ -19,6 +19,7 @@ Config Explanation
 `$lock_settings`  
     -`0`: Settings will reset to default on next reload  
     -`1`: Default. Settings will remain as configured on next reload  
-  
-`$mode_old`  
-    -Internally used, don't touch this  
+
+`$load_messages`  
+    -`0`: Do not send messages when the datapack is loaded/reloaded.  
+    -`1`: Default. Sends messages on install or reload.  
