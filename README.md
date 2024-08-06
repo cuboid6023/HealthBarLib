@@ -13,8 +13,8 @@ Config Explanation
     -`2`: Display mob's remaining % health on healthbar  
   
 `$slow_update`  
-    -`0`: Have all entities with healthbars perform update their healthbars every tick. Visually smoother but has worse performance.  
-    -`1`: Default. Have all entities with healthbars update their healthbars every 3 ticks. May cause visual lag but has better performance.  
+    -`0`: Have all entities with healthbars check if their health has changed every tick. Visually smoother but has worse performance.  
+    -`1`: Default. Have all entities with healthbars check if their health has changed every 3 ticks. May cause visual lag but has better performance.  
   
 `$lock_settings`  
     -`0`: Settings will reset to default on next reload  
