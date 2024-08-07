@@ -2,8 +2,7 @@
 function bar_lib:calculation/calculate_pct
 
 # updates text
-execute if score $num_display_mode bar.config matches 1 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_temp"},"italic":false}'
-execute if score $num_display_mode bar.config matches 2 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '[{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_pct"},"italic":false},{"text":"%"}]'
+function bar_lib:display/update_text
 
 # updates visuals
 execute if score @s bar.health_pct matches 0 on passengers if entity @s[tag=bar.health_bar] run data merge entity @s {text:'{"text":"\\ue000","font":"healthbar_lib:healthbar"}'}
