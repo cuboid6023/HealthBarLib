@@ -2,6 +2,10 @@
  A simple datapack/resource pack that adds health bars to mobs.  
 
 # Notes on usage  
+This datapack has a moderate-high impact on performance.  
+In testing, having 100 mobs with healthbars increased the mspt by ~2-3. This is due to the datapack constantly detecting any changes in mobs' health.  
+If you do not need such functionality, other datapacks which only update the healthbar on player attack are available.
+  
 Note that this datapack requires a workaround to display custom entity names.  
 As a result, to display an entity's nametag, it needs to be given the CustomNameVisible:1b tag.  
 Once on, it will always display when the entity is rendered. Unlike normal nametags, it won't render through blocks.  
