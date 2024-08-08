@@ -3,14 +3,14 @@
 
 # Notes on usage  
 This datapack has a moderate-high impact on performance.  
-In testing, having 100 mobs with healthbars increased the mspt by ~2-3. This is due to the datapack constantly detecting any changes in mobs' health.  
-If you do not need such functionality, other datapacks which only update the healthbar on player attack are available.
+In testing, having 100 mobs with healthbars increased the mspt by ~1-3. This is due to the datapack being forced to constantly check for any changes in entities' health, to update the healthbar if an entity heals or gets damaged by natural causes.  
+If you do not need such functionality, other datapacks which only update the mob healthbar when the player attacks do exist.  
   
 Note that this datapack requires a workaround to display custom entity names.  
 As a result, to display an entity's nametag, it needs to be given the CustomNameVisible:1b tag.  
 Once on, it will always display when the entity is rendered. Unlike normal nametags, it won't render through blocks.  
   
-Elites display healthbars with gold health values.  
+Elites display healthbars distinguished with crown icons around the health value.
 To mark a mob as an elite, spawn it with the tag `bar.elite`.  
   
 # Config Explanation  

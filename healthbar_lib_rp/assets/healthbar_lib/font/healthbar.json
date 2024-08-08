@@ -706,6 +706,13 @@
             "ascent": 64,
             "height": 64,
             "chars": ["\ue100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "healthbar_lib:crown.png",
+            "ascent": 7.5,
+            "height": 8,
+            "chars": ["\ue101"]
         }
     ]
 }
