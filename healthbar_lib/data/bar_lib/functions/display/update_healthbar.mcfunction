@@ -2,7 +2,10 @@
 function bar_lib:calculation/calculate_pct
 
 # updates text
-function bar_lib:display/update_text
+execute if entity @s[tag=!bar.elite] if score $num_display_mode bar.config matches 1 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_temp"},"italic":false}'
+execute if entity @s[tag=!bar.elite] if score $num_display_mode bar.config matches 2 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '[{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_pct"},"italic":false},{"text":"%"}]'
+execute if entity @s[tag=bar.elite] if score $num_display_mode bar.config matches 1 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '[{"text":"\\ue101","font":"healthbar_lib:healthbar","color":"white"},{"text":" ","font":"minecraft:default"},{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_temp"},"font":"minecraft:default","color":"white","bold":false,"italic":false},{"text":" ","font":"minecraft:default"},{"text":"\\ue101","font":"healthbar_lib:healthbar","color":"white"}]'
+execute if entity @s[tag=bar.elite] if score $num_display_mode bar.config matches 2 on passengers if entity @s[tag=bar.health_text] run data modify entity @s text set value '[{"text":"\\ue101","font":"healthbar_lib:healthbar","color":"white"},{"text":" ","font":"minecraft:default"},{"score":{"name":"@e[type=!#bar_lib:exclude_bars,distance=..3,tag=bar.has_bar,limit=1,sort=nearest]","objective":"bar.health_pct"},"font":"minecraft:default","color":"white","bold":false,"italic":false},{"text":"%"},{"text":" ","font":"minecraft:default"},{"text":"\\ue101","font":"healthbar_lib:healthbar","color":"white"}]'
 
 # updates visuals
 execute if score @s bar.health_pct matches 0 on passengers if entity @s[tag=bar.health_bar] run data merge entity @s {text:'{"text":"\\ue000","font":"healthbar_lib:healthbar"}'}
