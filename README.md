@@ -4,6 +4,8 @@
 ## Usage  
 To add a health bar to a mob, tag it with `bar.add_bar`.  
   
+To configure settings, change the scores of the fake players in the `bar.config` objective.
+  
 Note that this datapack requires a workaround to display custom entity names.  
 As a result, to display an entity's nametag, it needs to be given the CustomNameVisible:1b tag.  
 Once on, it will always display when the entity is rendered. Unlike normal nametags, it won't render through blocks.  
@@ -32,5 +34,12 @@ If you do not need such functionality, other datapacks which only update the mob
     -`1`: Default. Settings will remain as configured on next reload  
 
 `$load_messages`  
-    -`0`: Do not send messages when the datapack is loaded/reloaded.  
-    -`1`: Default. Sends messages on install or reload.  
+    -`0`: Do not send messages when the datapack is loaded/reloaded  
+    -`1`: Default. Sends messages on install or reload  
+  
+`$fancy_death`  
+    -`0`: Clear health bars immediately as soon as an entity's health reaches zero   
+    -`1`: Default. Indicate death on health bars when the entity dies; clear them only after the corpse disappears  
+  
+## Credits  
+Special thanks to the Minecraft Commands discord for helping with optimizations [corpse detection and slow looping], and to the CTMC for inspiring me to create this datapack in the first place.

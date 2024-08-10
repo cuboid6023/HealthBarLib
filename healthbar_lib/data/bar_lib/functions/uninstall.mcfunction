@@ -5,7 +5,6 @@ scoreboard objectives remove bar.health
 scoreboard objectives remove bar.max_health
 scoreboard objectives remove bar.health_pct
 scoreboard objectives remove bar.config
-scoreboard objectives remove bar.internal
 # clear entities
 kill @e[tag=bar.component]
 kill @e[tag=bar.component_new]
